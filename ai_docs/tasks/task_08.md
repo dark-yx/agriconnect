@@ -25,3 +25,8 @@ You are an expert code auditor and DevOps engineer working in Bolt.new. Your tas
 
 **Deliverable:**
 - A detailed codebase audit report and confirmation that the AgriConnect repository is fully updated and error-free, ready for production or further development. 
+
+
+---
+
+**Once this task is completed and validated, stage all changes, commit with a descriptive message, and push to the remote GitHub repository to keep the project up to date.** 

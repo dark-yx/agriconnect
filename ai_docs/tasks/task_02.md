@@ -39,3 +39,7 @@ You are an expert multi-agent system developer working in Bolt.new. Your task is
 
 **Deliverable:**
 - All code, logic, and documentation needed for Supervisor, Producer, and Consumer Agents, agent-to-agent communication, and basic UI/UX for AgriConnect Phase 2, ready for use by subsequent Bolt.new agent development prompts. 
+
+---
+
+**Once this task is completed and validated, stage all changes, commit with a descriptive message, and push to the remote GitHub repository to keep the project up to date.** 

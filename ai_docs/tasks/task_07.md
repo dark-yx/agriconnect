@@ -57,3 +57,8 @@ You are an expert systems architect and agent developer working in Bolt.new. You
 
 **Deliverable:**
 - All code, logic, and documentation needed for scalability, new agents, advanced data, predictive maintenance, financing, global expansion, regenerative agriculture, and multimodal UI/UX for AgriConnect Phase 7, ready for use by subsequent Bolt.new agent development prompts. 
+
+
+---
+
+**Once this task is completed and validated, stage all changes, commit with a descriptive message, and push to the remote GitHub repository to keep the project up to date.** 

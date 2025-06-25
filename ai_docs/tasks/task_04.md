@@ -39,3 +39,7 @@ You are an expert AI/ML engineer and agent developer working in Bolt.new. Your t
 
 **Deliverable:**
 - All code, logic, and documentation needed for matching/recommendation, dynamic pricing, demand forecasting, reputation/trust, quality assurance, and advanced search for AgriConnect Phase 4, ready for use by subsequent Bolt.new agent development prompts. 
+
+---
+
+**Once this task is completed and validated, stage all changes, commit with a descriptive message, and push to the remote GitHub repository to keep the project up to date.** 

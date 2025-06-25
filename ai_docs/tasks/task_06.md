@@ -34,3 +34,7 @@ You are an expert deployment engineer and agent developer working in Bolt.new. Y
 
 **Deliverable:**
 - All code, logic, and documentation needed for production deployment, monitoring, feedback, logistics agent, and advanced oracle integration for AgriConnect Phase 6, ready for use by subsequent Bolt.new agent development prompts. 
+
+---
+
+**Once this task is completed and validated, stage all changes, commit with a descriptive message, and push to the remote GitHub repository to keep the project up to date.** 

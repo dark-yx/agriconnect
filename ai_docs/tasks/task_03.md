@@ -43,3 +43,7 @@ You are an expert agent developer and blockchain integrator working in Bolt.new.
 
 **Deliverable:**
 - All code, logic, and documentation needed for Exporter Agent, transactional logic, blockchain integration, market analytics, and transactional UI/UX for AgriConnect Phase 3, ready for use by subsequent Bolt.new agent development prompts. 
+
+---
+
+**Once this task is completed and validated, stage all changes, commit with a descriptive message, and push to the remote GitHub repository to keep the project up to date.** 
