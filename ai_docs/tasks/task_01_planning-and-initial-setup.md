@@ -47,8 +47,7 @@ You are an expert AI architect and requirements engineer working in Bolt.new. Yo
 ---
 
 **Validation:**
-- Ensure the platform supports dynamic selection and switching between LLM providers (OpenAI, Gemini, Anthropic, etc.) at runtime, with no changes required to application logic. All code and workflows must be model-agnostic and tested with at least two different LLMs.
-- Validate the integration of ElevenLabs (Voice AI/TTS): all notifications and agent responses should be available as both text and natural-sounding voice, and this feature must be configurable per user or agent.
+- Ensure the platform uses the LangGraph multi-agent structure correctly and supports dynamic selection and switching between LLM providers (OpenAI, Gemini, Anthropic, etc.) at runtime, with no changes required to application logic. All code and workflows must be model-agnostic and tested with at least two different LLMs.
 
 ---
 
