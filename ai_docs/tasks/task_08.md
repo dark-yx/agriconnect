@@ -23,6 +23,10 @@ You are an expert code auditor and DevOps engineer working in Bolt.new. Your tas
      - Execute a `git push` to update the remote GitHub repository with all completed work.
    - Output the git commands used and confirm the repository is up to date.
 
+**Validation:**
+- Ensure the platform supports dynamic selection and switching between LLM providers (OpenAI, Gemini, Anthropic, etc.) at runtime, with no changes required to application logic. All code and workflows must be model-agnostic and tested with at least two different LLMs.
+- Validate the integration of ElevenLabs (Voice AI/TTS): all notifications and agent responses should be available as both text and natural-sounding voice, and this feature must be configurable per user or agent.
+
 **Deliverable:**
 - A detailed codebase audit report and confirmation that the AgriConnect repository is fully updated and error-free, ready for production or further development. 
 

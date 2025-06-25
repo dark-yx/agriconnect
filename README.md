@@ -21,6 +21,7 @@ AgriConnect is an AI-powered, multi-agent marketplace platform designed to revol
 
 ## Technical Architecture
 - **Core:** Multi-agent system orchestrated by LangGraph, with dynamic LLM model switching for cost and performance optimization.
+- **LLM Model Flexibility:** AgriConnect supports dynamic selection and switching of LLM providers, including OpenAI (GPT-4/3.5), Gemini, Anthropic (Claude), and others. The application can be configured to use any supported model at runtime, and agents can select the most appropriate LLM for each task. This ensures maximum flexibility, cost optimization, and future-proofing.
 - **Frontend:** Responsive, conversational UI built in Bolt.new, supporting all user personas.
 - **Backend:** Node.js (Bolt.new WebContainers), with modular agent logic and RESTful APIs.
 - **Database:** Supabase (Postgres) for relational data, authentication, and real-time features.
@@ -28,6 +29,7 @@ AgriConnect is an AI-powered, multi-agent marketplace platform designed to revol
 - **Payments:** Stripe integration for secure, automated transactions.
 - **Observability:** LangSmith for workflow tracing, performance monitoring, and prompt evaluation.
 - **CI/CD & Hosting:** GitHub for version control, Netlify for automated deployment and hosting.
+- **Voice AI Integration:** ElevenLabs Voice AI is integrated to provide text-to-speech and voice notifications. This enhances accessibility, allows users (especially those in rural or low-literacy contexts) to receive information and alerts via natural-sounding voice, and supports voice-driven user experiences. ElevenLabs can be enabled/disabled or configured per user or agent as needed.
 
 ---
 
@@ -61,6 +63,8 @@ README.md           # This file
 - **Netlify:** CI/CD and hosting
 - **LangSmith:** Observability and prompt evaluation
 - **Node.js, JavaScript/TypeScript:** Core backend and agent logic
+- **OpenAI, Gemini, Anthropic:** Interchangeable LLM providers for all agent reasoning and workflows
+- **ElevenLabs:** Voice AI for text-to-speech and voice notifications
 
 ---
 
@@ -86,6 +90,8 @@ README.md           # This file
 ## Why AgriConnect is a Winning Hackathon Entry
 - **Ambitious Scope:** Tackles real, global problems in agriculture with a holistic, multi-agent approach.
 - **Technical Excellence:** Leverages the full power of Bolt.new, LangGraph, Supabase, Algorand, and modern AI/ML.
+- **LLM Flexibility:** Supports OpenAI, Gemini, Anthropic, and future models, with dynamic switching for cost and performance.
+- **Voice AI Innovation:** ElevenLabs integration for accessibility and next-gen user experience.
 - **Scalability & Sustainability:** Cloud-native, modular, and ready for global expansion.
 - **User-Centric:** Intuitive, chat-based UI and personalized tools for every user type.
 - **Trust & Transparency:** Blockchain traceability, reputation systems, and real-time data validation.

@@ -104,6 +104,8 @@ Implementing dynamic LLM model switching is a strategic component:
 
 The strategic integration of Human-in-the-Loop (HITL) mechanisms is fundamental for building trust and mitigating errors, especially in a high-stakes sector like agriculture. LangGraph's interrupt() function allows pausing workflows for human input.
 
+* The platform supports dynamic selection and switching between any supported LLM provider, including OpenAI (GPT-4/3.5), Gemini, Anthropic (Claude), and others. The application logic is model-agnostic: you can change the LLM model at any time without modifying the core workflows or agent logic. All integrations, workflows, and tests must validate that the system works seamlessly with any supported LLM.
+
 ### **Agent Roles, Responsibilities, and Customization**
 
 Each agent has specialized roles with tailored responsibilities and tools:
@@ -712,4 +714,22 @@ agriconnect-project/
 * **README.md**: Project documentation.
 
 This development plan, combined with the proposed architecture and technology stack, provides a comprehensive guide for building AgriConnect, from foundational elements to a robust and scalable operating system.
+
+## Voice AI Integration: ElevenLabs
+
+AgriConnect integrates ElevenLabs Voice AI to provide advanced text-to-speech (TTS) and voice notification capabilities. This integration enhances accessibility, allowing users—especially those in rural or low-literacy contexts—to receive information, alerts, and agent responses via natural-sounding voice. ElevenLabs can be enabled or disabled per user or agent, and is configurable to support different languages and voices as needed.
+
+**Technical Integration:**
+- ElevenLabs is connected to the platform as a TTS service, available to all agents and user interfaces.
+- Any text output (notifications, agent responses, alerts) can be converted to speech and delivered via the web or mobile app.
+- The integration is modular: voice features can be toggled on/off for each user or agent, and the system can fall back to text-only if TTS is unavailable.
+
+**Use Cases:**
+- Voice notifications for transaction updates, offers, and critical alerts.
+- Voice-based delivery of agent responses for users with limited literacy or accessibility needs.
+- Multimodal user experiences, including conversational interfaces with both text and voice.
+
+**Configuration:**
+- Users and agents can enable or disable voice features in their settings.
+- Administrators can configure default voices, languages, and notification types.
 

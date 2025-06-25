@@ -58,6 +58,9 @@ You are an expert systems architect and agent developer working in Bolt.new. You
 **Deliverable:**
 - All code, logic, and documentation needed for scalability, new agents, advanced data, predictive maintenance, financing, global expansion, regenerative agriculture, and multimodal UI/UX for AgriConnect Phase 7, ready for use by subsequent Bolt.new agent development prompts. 
 
+**Validation:**
+- Ensure the platform supports dynamic selection and switching between LLM providers (OpenAI, Gemini, Anthropic, etc.) at runtime, with no changes required to application logic. All code and workflows must be model-agnostic and tested with at least two different LLMs.
+- Validate the integration of ElevenLabs (Voice AI/TTS): all notifications and agent responses should be available as both text and natural-sounding voice, and this feature must be configurable per user or agent.
 
 ---
 
